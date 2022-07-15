@@ -5,6 +5,6 @@ import AAGen from "../islands/AA.tsx";
 
 export default function Home() {
   return (
-    <AAGen type="name:yaranaio" />
+    <AAGen type="yaranaio" />
   );
 }

@@ -26,16 +26,17 @@ const yaranaio = `
 　　 ｜　　　 ｜
 `;
 export default function AAGen(props) {
-  var aa = yaruo;
+  var aa = "";
   if(props.type == "yaranaio"){
     aa = yaranaio;
   }else{
     aa = yaruo;
   }
+  console.log(props.type)
 
   return (
     <div class={tw`p-4 mx-auto max-w-screen-md`} style="white-space:pre-line">
-    {props.type}
+    {aa}
     </div>
   );
 }

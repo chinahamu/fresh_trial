@@ -2,21 +2,23 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
-import * as $0 from "./routes/[name].tsx";
+import * as $0 from "./routes/aa/[name].tsx";
 import * as $1 from "./routes/api/joke.ts";
 import * as $2 from "./routes/index.tsx";
-import * as $3 from "./routes/yaranaio.tsx";
-import * as $4 from "./routes/yaruo.tsx";
+import * as $3 from "./routes/moment.tsx";
+import * as $4 from "./routes/yaranaio.tsx";
+import * as $5 from "./routes/yaruo.tsx";
 import * as $$0 from "./islands/AA.tsx";
 import * as $$1 from "./islands/Counter.tsx";
 
 const manifest = {
   routes: {
-    "./routes/[name].tsx": $0,
+    "./routes/aa/[name].tsx": $0,
     "./routes/api/joke.ts": $1,
     "./routes/index.tsx": $2,
-    "./routes/yaranaio.tsx": $3,
-    "./routes/yaruo.tsx": $4,
+    "./routes/moment.tsx": $3,
+    "./routes/yaranaio.tsx": $4,
+    "./routes/yaruo.tsx": $5,
   },
   islands: {
     "./islands/AA.tsx": $$0,

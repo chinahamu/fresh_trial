@@ -5,10 +5,6 @@ import AAGen from "../islands/AA.tsx";
 
 export default function Home() {
   return (
-    <div class={tw`p-4 mx-auto max-w-screen-md`}>
-      <p class={tw`my-6`}>
-       <AAGen type={"yaruo"} />
-      </p>
-    </div>
+    <AAGen type={"yaruo"} />
   );
 }
